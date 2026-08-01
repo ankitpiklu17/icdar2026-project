@@ -392,7 +392,63 @@ body{
     color:#18355d;
 
 }
+/* =====================================================
+   FRAMEWORK SECTION
+===================================================== */
 
+.light-section{
+
+    background:#f8f8f8;
+
+}
+
+.section-description{
+
+    width:85%;
+
+    max-width:950px;
+
+    margin:0 auto 40px;
+
+    text-align:center;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#555;
+
+}
+
+.large-image{
+
+    width:100%;
+
+    max-width:1200px;
+
+    display:block;
+
+    margin:40px auto;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.figure-caption{
+
+    text-align:center;
+
+    font-size:16px;
+
+    color:#666;
+
+    font-style:italic;
+
+    margin-top:-10px;
+
+}
 /* =====================================================
    RESPONSIVE
 ===================================================== */
