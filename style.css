@@ -1,379 +1,219 @@
-/* =======================================================
-   ICDAR 2026 Website
-   Hero Section
-======================================================= */
-
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
 
-html{
+margin:0;
 
-    scroll-behavior:smooth;
+padding:0;
+
+box-sizing:border-box;
 
 }
 
 body{
 
-    font-family:'Inter',sans-serif;
+font-family:'Inter',sans-serif;
 
-    background:#f7f3ea;
-
-    color:#222;
+background:#f9f6ef;
 
 }
-
-/* ================= HERO ================= */
 
 .hero{
 
-    position:relative;
+    position: relative;
 
-    width:100%;
+    width: 100%;
 
-    min-height:100vh;
+    min-height: 100vh;
 
-    overflow:hidden;
+    display: flex;
 
-    display:flex;
+    justify-content: center;
 
-    justify-content:center;
+    align-items: center;
 
-    align-items:center;
+    overflow: hidden;
+
+    background-image: url("assets/images/sheet_1.png");
+
+    background-size: cover;      /* Uses the full image */
+
+    background-position: center;
+
+    background-repeat: no-repeat;
 
 }
 
-/* Background Image */
-
-.hero-background{
+.overlay{
 
     position:absolute;
 
     inset:0;
 
-    background-image:url("assets/images/sheet_1.png");
-
-    background-size:cover;
-
-    background-position:center;
-
-    background-repeat:no-repeat;
-
-    filter:grayscale(100%);
-
-    opacity:0.18;
-
-    transform:scale(1.08);
+    background:rgba(250,247,240,0.82);
 
 }
+.content{
 
-/* Cream Overlay */
+position:relative;
 
-.hero-overlay{
+z-index:10;
 
-    position:absolute;
+max-width:900px;
 
-    inset:0;
+padding:50px;
 
-    background:linear-gradient(
-
-        rgba(250,247,240,0.92),
-
-        rgba(250,247,240,0.96)
-
-    );
+text-align:center;
 
 }
-
-/* ================= CONTENT ================= */
-
-.hero-content{
-
-    position:relative;
-
-    z-index:5;
-
-    width:90%;
-
-    max-width:1200px;
-
-    text-align:center;
-
-}
-
-/* ================= LOGOS ================= */
-
-.logo-container{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    margin-bottom:35px;
-
-}
-
-.logo{
-
-    height:85px;
-
-    object-fit:contain;
-
-}
-
-/* ================= CONFERENCE ================= */
-
-.conference{
-
-    color:#1b4fa5;
-
-    font-size:20px;
-
-    font-weight:700;
-
-    letter-spacing:1px;
-
-    margin-bottom:25px;
-
-}
-
-/* ================= TITLE ================= */
 
 h1{
 
-    font-family:'Cormorant Garamond',serif;
+font-family:'Cormorant Garamond',serif;
 
-    font-size:72px;
+font-size:72px;
 
-    font-weight:700;
+font-weight:700;
 
-    line-height:1.05;
+line-height:1.05;
 
-    color:#111;
+color:#163254;
 
-    margin-bottom:25px;
+margin-bottom:30px;
 
 }
-
-/* ================= SUBTITLE ================= */
 
 h2{
 
-    font-size:32px;
+font-family:'Cormorant Garamond',serif;
 
-    font-weight:400;
+font-size:34px;
 
-    color:#555;
+font-weight:500;
 
-    line-height:1.4;
+color:#3b5c82;
 
-    margin-bottom:35px;
-
-}
-
-/* ================= DIVIDER ================= */
-
-.divider{
-
-    font-size:34px;
-
-    color:#d89b00;
-
-    margin-bottom:35px;
+margin-bottom:35px;
 
 }
 
-/* ================= AUTHORS ================= */
+.separator{
+
+font-size:26px;
+
+color:#d8b14f;
+
+letter-spacing:10px;
+
+margin-bottom:35px;
+
+}
 
 .authors{
 
-    display:flex;
+font-size:22px;
 
-    justify-content:center;
+font-weight:500;
 
-    flex-wrap:wrap;
+color:#1d2d44;
 
-    gap:12px;
-
-    font-size:24px;
-
-    font-weight:500;
-
-    margin-bottom:20px;
+line-height:1.8;
 
 }
 
 .authors span{
 
-    color:#222;
+padding:0 15px;
 
-}
-
-/* ================= UNIVERSITY ================= */
-
-.university{
-
-    font-size:20px;
-
-    color:#555;
-
-    line-height:1.6;
-
-    margin-bottom:45px;
-
-}
-
-/* ================= BUTTONS ================= */
-
-.hero-buttons{
-
-    display:flex;
-
-    justify-content:center;
-
-    flex-wrap:wrap;
-
-    gap:18px;
-
-}
-
-.button{
-
-    text-decoration:none;
-
-    color:white;
-
-    background:#174ea6;
-
-    padding:15px 34px;
-
-    border-radius:50px;
-
-    font-size:18px;
-
-    font-weight:600;
-
-    transition:.3s;
-
-    box-shadow:0 8px 20px rgba(0,0,0,.15);
-
-}
-
-.button:hover{
-
-    background:#f28c28;
-
-    transform:translateY(-4px);
-
-}
-
-/* ================= RESPONSIVE ================= */
-
-@media(max-width:1000px){
-
-.logo{
-
-    height:65px;
-
-}
-
-h1{
-
-    font-size:54px;
-
-}
-
-h2{
-
-    font-size:26px;
-
-}
-
-.authors{
-
-    font-size:20px;
-
-}
-
-}
-
-@media(max-width:768px){
-
-.logo-container{
-
-    flex-direction:column;
-
-    gap:25px;
-
-}
-
-.logo{
-
-    height:60px;
-
-}
-
-h1{
-
-    font-size:42px;
-
-}
-
-h2{
-
-    font-size:22px;
-
-}
-
-.conference{
-
-    font-size:17px;
-
-}
-
-.authors{
-
-    font-size:18px;
+color:#b68d2a;
 
 }
 
 .university{
 
-    font-size:18px;
+margin-top:20px;
+
+font-size:22px;
+
+font-style:italic;
+
+font-family:'Cormorant Garamond',serif;
+
+color:#35537d;
 
 }
 
-.button{
+.buttons{
 
-    width:220px;
+margin-top:50px;
 
-    text-align:center;
+display:flex;
+
+justify-content:center;
+
+gap:18px;
+
+flex-wrap:wrap;
 
 }
 
+.buttons a{
+
+text-decoration:none;
+
+padding:15px 34px;
+
+background:#1e4e8c;
+
+color:white;
+
+border-radius:40px;
+
+font-weight:600;
+
+transition:.3s;
+
 }
 
-@media(max-width:500px){
+.buttons a:hover{
+
+background:#c58f26;
+
+transform:translateY(-3px);
+
+}
+
+@media(max-width:900px){
 
 h1{
 
-    font-size:34px;
+font-size:48px;
 
 }
 
 h2{
 
-    font-size:18px;
+font-size:26px;
 
 }
 
 .authors{
 
-    flex-direction:column;
+font-size:18px;
+
+}
+
+.buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.buttons a{
+
+width:220px;
+
+text-align:center;
 
 }
 
