@@ -28,7 +28,7 @@ body{
 
     position:relative;
 
-    min-height:78vh;          /* was 100vh */
+    min-height:68vh;          /* was 100vh */
 
     display:flex;
 
@@ -189,7 +189,7 @@ body{
 
 .buttons{
 
-    margin-top:25px;
+    margin-top:18px;
 
     display:flex;
 
