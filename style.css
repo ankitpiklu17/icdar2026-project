@@ -318,4 +318,98 @@ body{
 
 }
 
+/* =====================================================
+   GENERAL SECTION
+===================================================== */
+
+.section{
+
+    padding:100px 0;
+
+    background:#ffffff;
+
+}
+
+/* =====================================================
+   CONTAINER
+===================================================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:auto;
+
+}
+
+/* =====================================================
+   SECTION TITLE
+===================================================== */
+
+.section-title{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:52px;
+
+    color:#18355d;
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+    position:relative;
+
+}
+
+.section-title::after{
+
+    content:"";
+
+    display:block;
+
+    width:90px;
+
+    height:3px;
+
+    background:#b88b2d;
+
+    margin:18px auto 0;
+
+}
+
+/* =====================================================
+   ABSTRACT CARD
+===================================================== */
+
+.abstract-box{
+
+    background:#ffffff;
+
+    padding:45px;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+
+}
+
+/* =====================================================
+   ABSTRACT TEXT
+===================================================== */
+
+.abstract-box p{
+
+    font-size:21px;
+
+    line-height:1.9;
+
+    color:#444;
+
+    text-align:justify;
+
+}   
+
 }
