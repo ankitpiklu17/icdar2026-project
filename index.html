@@ -1,223 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        ICDAR 2026 | Multi-Modal Heterogeneous Music Notation Recognition
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
 <body>
 
-<!-- ========================= NAVIGATION ========================= -->
+<section class="hero">
 
-<nav class="navbar">
+    <!-- Background Sheet Music -->
 
-    <div class="logo">
-        <img src="assets/images/icdar26_logo.png" alt="ICDAR Logo">
-        <span>ICDAR 2026</span>
+    <div class="hero-background"></div>
+
+    <!-- Overlay -->
+
+    <div class="hero-overlay"></div>
+
+    <!-- Content -->
+
+    <div class="hero-content">
+
+        <!-- Logos -->
+
+        <div class="logo-container">
+
+            <img src="assets/images/flame_logo.png"
+                 alt="FLAME University"
+                 class="logo">
+
+            <img src="assets/images/icdar26_logo.png"
+                 alt="ICDAR 2026"
+                 class="logo">
+
+        </div>
+
+        <!-- Conference -->
+
+        <p class="conference">
+
+            International Conference on Document Analysis and Recognition (ICDAR) 2026
+
+        </p>
+
+        <!-- Title -->
+
+        <h1>
+
+            Multi-Modal Heterogeneous
+
+            <br>
+
+            Music Notation Recognition
+
+            <br>
+
+            from Documents
+
+        </h1>
+
+        <!-- Subtitle -->
+
+        <h2>
+
+            A Framework for Real-Time
+
+            <br>
+
+            Symbolic-to-Immersive Mapping
+
+        </h2>
+
+        <!-- Decorative Divider -->
+
+        <div class="divider">
+
+            ♪ ♫ ♪
+
+        </div>
+
+        <!-- Authors -->
+
+        <div class="authors">
+
+            <span>Ankit Sinha<sup>1</sup></span>
+
+            <span>•</span>
+
+            <span>Atanu Saha<sup>1</sup></span>
+
+            <span>•</span>
+
+            <span>Rahul Kumar Ray<sup>1</sup></span>
+
+            <span>•</span>
+
+            <span>Chiranjoy Chattopadhyay<sup>1</sup></span>
+
+        </div>
+
+        <!-- University -->
+
+        <div class="university">
+
+            <sup>1</sup>
+
+            School of Computing and Data Sciences
+
+            <br>
+
+            FLAME University
+
+        </div>
+
+        <!-- Buttons -->
+
+        <div class="hero-buttons">
+
+            <a href="#" class="button">
+
+                📄 Paper
+
+            </a>
+
+            <a href="#" class="button">
+
+                🖼 Poster
+
+            </a>
+
+            <a href="#" class="button">
+
+                💻 Code
+
+            </a>
+
+            <a href="#" class="button">
+
+                📂 Dataset
+
+            </a>
+
+            <a href="#" class="button">
+
+                📚 BibTeX
+
+            </a>
+
+        </div>
+
     </div>
 
-    <ul class="nav-links">
-
-        <li><a href="#summary">Summary</a></li>
-        <li><a href="#problem">Problem</a></li>
-        <li><a href="#dataset">Dataset</a></li>
-        <li><a href="#pipeline">Pipeline</a></li>
-        <li><a href="#results">Results</a></li>
-        <li><a href="#citation">Citation</a></li>
-
-    </ul>
-
-</nav>
-
-
-<!-- ========================= HERO ========================= -->
-
-<header class="hero">
-
-<div class="hero-content">
-
-<h3 class="conference">
-
-International Conference on Document Analysis and Recognition (ICDAR) 2026
-
-</h3>
-
-<h1>
-
-Multi-Modal Heterogeneous Music
-Notation Recognition from Documents
-
-</h1>
-
-<h2>
-
-A Framework for Real-Time
-Symbolic-to-Immersive Mapping
-
-</h2>
-
-<p class="authors">
-
-Ankit Sinha<sup>1</sup> ·
-Atanu Saha<sup>1</sup> ·
-Rahul Kumar Ray<sup>1</sup> ·
-Chiranjoy Chattopadhyay<sup>1</sup>
-
-</p>
-
-<p class="affiliation">
-
-<sup>1</sup>School of Computing and Data Sciences,
-FLAME University, Pune, India
-
-</p>
-
-<div class="buttons">
-
-<a href="#" class="btn">Paper</a>
-
-<a href="#" class="btn">Poster</a>
-
-<a href="#" class="btn">Code</a>
-
-<a href="#" class="btn">Dataset</a>
-
-<a href="#" class="btn">Video</a>
-
-</div>
-
-</div>
-
-</header>
-
-
-<!-- ========================= TEASER ========================= -->
-
-<section class="section teaser">
-
-<div class="container">
-
-<h2>
-
-Overview
-
-</h2>
-
-<p class="section-description">
-
-A unified framework that transforms heterogeneous music notation
-documents into interactive immersive musical experiences through
-automatic MusicXML generation and XR visualization.
-
-</p>
-
-<img
-
-src="assets/images/HDI_Framework.png"
-
-class="teaser-image"
-
-alt="Framework Overview"
-
->
-
-</div>
-
 </section>
-
-
-<!-- ========================= SUMMARY ========================= -->
-
-<section id="summary" class="section">
-
-<div class="container">
-
-<h2>
-
-Summary
-
-</h2>
-
-<div class="summary-grid">
-
-<div class="summary-card">
-
-<h3>
-
-Motivation
-
-</h3>
-
-<p>
-
-Existing Optical Music Recognition (OMR) systems mainly focus on
-Western melodic notation and provide limited support for heterogeneous
-music scores.
-
-</p>
-
-</div>
-
-<div class="summary-card">
-
-<h3>
-
-Challenge
-
-</h3>
-
-<p>
-
-Develop a unified OMR framework capable of recognizing heterogeneous
-music notation, generating MusicXML, and enabling immersive XR-based
-music learning.
-
-</p>
-
-</div>
-
-<div class="summary-card">
-
-<h3>
-
-SWARA Framework
-
-</h3>
-
-<p>
-
-We propose SWARA (Sheet music With Augmented Recognition for metAverse),
-a unified heterogeneous music notation recognition framework for
-real-time symbolic-to-immersive mapping.
-
-</p>
-
-</div>
-
-<div class="summary-card">
-
-<h3>
-
-Contributions
-
-</h3>
-
-<ul>
-
-<li>First annotated percussion sheet music dataset.</li>
-
-<li>Unified heterogeneous OMR framework.</li>
-
-<li>MusicXML generation pipeline.</li>
-
-<li>Real-time XR interaction.</li>
-
-<li>Collaborative musical metaverse.</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
 
 <script src="script.js"></script>
 
 </body>
+
+</html>
