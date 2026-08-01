@@ -53,15 +53,11 @@ background:#f9f6ef;
 }
 .content{
 
-position:relative;
+    width:95%;
 
-z-index:10;
+    max-width:1600px;
 
-max-width:1200px;
-
-padding:50px;
-
-text-align:left;
+    margin:auto;
 
 }
 
@@ -69,23 +65,17 @@ text-align:left;
 
     font-family:'Cormorant Garamond',serif;
 
-    font-size:72px;
+    font-size:64px;
 
-    font-weight:700;
-
-    line-height:1.08;
+    line-height:1.15;
 
     color:#163254;
 
-    max-width:1800px;
+    width:100%;
 
-    margin:0 auto 35px;
-
-    text-align:left;
+    text-align:center;
 
 }
-
-
 .separator{
 
 font-size:26px;
