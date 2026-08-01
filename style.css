@@ -16,11 +16,8 @@ html{
 }
 
 body{
-
     font-family:'Inter',sans-serif;
-
     background:#faf7f1;
-
 }
 
 /* =====================================================
@@ -99,7 +96,7 @@ body{
 
     font-weight:700;
 
-    line-height:1.02;
+    line-height:1.05;
 
     color:#18355d;
 
@@ -186,6 +183,7 @@ body{
     line-height:1.6;
 
 }
+
 /* =====================================================
    BUTTONS
 ===================================================== */
@@ -235,90 +233,6 @@ body{
 }
 
 /* =====================================================
-   RESPONSIVE
-===================================================== */
-
-@media(max-width:1200px){
-
-.paper-title{
-
-    font-size:68px;
-
-}
-
-.subtitle{
-
-    font-size:32px;
-
-}
-
-}
-
-@media(max-width:900px){
-
-.paper-title{
-
-    font-size:52px;
-
-}
-
-.subtitle{
-
-    font-size:26px;
-
-}
-
-.authors{
-
-    font-size:20px;
-
-}
-
-.buttons{
-
-    flex-direction:column;
-
-    align-items:center;
-
-}
-
-.buttons a{
-
-    width:220px;
-
-    text-align:center;
-
-}
-
-}
-
-@media(max-width:600px){
-
-.paper-title{
-
-    font-size:40px;
-
-}
-
-.subtitle{
-
-    font-size:22px;
-
-}
-
-.authors{
-
-    font-size:18px;
-
-}
-
-.university{
-
-    font-size:20px;
-
-}
-
-/* =====================================================
    GENERAL SECTION
 ===================================================== */
 
@@ -326,7 +240,7 @@ body{
 
     padding:100px 0;
 
-    background:#ffffff;
+    background:#faf8f2;
 
 }
 
@@ -416,6 +330,118 @@ body{
 
     text-align:justify;
 
-}   
+}
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media(max-width:1200px){
+
+.paper-title{
+
+    font-size:68px;
+
+}
+
+.subtitle{
+
+    font-size:32px;
+
+}
+
+}
+
+@media(max-width:900px){
+
+.paper-title{
+
+    font-size:52px;
+
+}
+
+.subtitle{
+
+    font-size:26px;
+
+}
+
+.authors{
+
+    font-size:20px;
+
+}
+
+.buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.buttons a{
+
+    width:220px;
+
+    text-align:center;
+
+}
+
+.abstract-box{
+
+    width:90%;
+
+    padding:35px;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.paper-title{
+
+    font-size:40px;
+
+}
+
+.subtitle{
+
+    font-size:22px;
+
+}
+
+.authors{
+
+    font-size:18px;
+
+}
+
+.university{
+
+    font-size:20px;
+
+}
+
+.section-title{
+
+    font-size:38px;
+
+}
+
+.abstract-box{
+
+    width:95%;
+
+    padding:25px;
+
+}
+
+.abstract-box p{
+
+    font-size:18px;
+
+}
 
 }
