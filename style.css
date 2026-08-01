@@ -53,27 +53,35 @@ background:#f9f6ef;
 }
 .content{
 
-    width:95%;
+position:relative;
 
-    max-width:1600px;
+z-index:10;
 
-    margin:auto;
+max-width:900px;
+
+padding:50px;
+
+text-align:center;
 
 }
 
 .paper-title{
 
-    font-family:'Cormorant Garamond',serif;
+    font-family:'Inter',sans-serif;
 
-    font-size:64px;
+    font-size:72px;
 
-    line-height:1.15;
+    font-weight:800;
 
-    color:#163254;
+    line-height:1.08;
 
-    width:100%;
+    max-width:1300px;
+
+    margin:0 auto 30px;
 
     text-align:center;
+
+    color:#1b2d4f;
 
 }
 .separator{
