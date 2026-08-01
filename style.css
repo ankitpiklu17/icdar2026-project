@@ -305,53 +305,31 @@ body{
 
     background:#ffffff;
 
-    padding:35px 45px;
+    padding:40px 50px;
 
-    border-radius:28px;
+    border-radius:20px;
 
     box-shadow:0 10px 30px rgba(0,0,0,.08);
 
 }
 
-.summary-card ul{
+.summary-card p{
 
-    list-style:none;
-
-}
-
-.summary-card li{
-
-    position:relative;
-
-    padding-left:34px;
-
-    margin-bottom:20px;
-
-    font-size:20px;
+    font-size:19px;
 
     line-height:1.9;
 
     color:#444;
 
-}
-
-.summary-card li::before{
-
-    content:"►";
-
-    position:absolute;
-
-    left:0;
-
-    color:#c89b2b;
-
-    font-size:18px;
+    text-align:justify;
 
 }
 
 .summary-card strong{
 
     color:#18355d;
+
+    font-weight:600;
 
 }
 /* =====================================================
