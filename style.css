@@ -28,7 +28,7 @@ body{
 
     position:relative;
 
-    min-height:78vh;          /* was 100vh */
+    min-height:65vh;          /* was 100vh */
 
     display:flex;
 
