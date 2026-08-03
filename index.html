@@ -171,6 +171,145 @@
     </div>
 
 </section>
+
+<!-- ======================================================
+     EXPERIMENTS & RESULTS
+======================================================= -->
+
+<section id="experiments" class="section light-section">
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Experiments & Results
+
+        </h2>
+
+        <p class="section-description">
+
+            All models were trained for <strong>50 epochs</strong> on an
+            NVIDIA RTX A4500 GPU using the Adam optimizer. The unified
+            heterogeneous dataset consists of <strong>49 musical symbol
+            classes</strong> from piano and percussion notation with an
+            80:10:10 train-validation-test split. We evaluate both the
+            proposed SWARA Staff Module for staff-line segmentation and
+            multiple object detectors for heterogeneous musical symbol
+            detection.
+
+        </p>
+
+        <!-- Staff-line Segmentation -->
+
+        <h3 class="subsection-title">
+
+            Staff-line Segmentation
+
+        </h3>
+
+        <table class="result-table">
+
+            <thead>
+
+                <tr>
+                    <th>Method</th>
+                    <th>Dice</th>
+                    <th>mIoU</th>
+                    <th>Runtime</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>OEMER</td>
+                    <td>0.83</td>
+                    <td>0.79</td>
+                    <td>95 ms</td>
+                </tr>
+
+                <tr>
+                    <td>U-Net Baseline</td>
+                    <td>0.87</td>
+                    <td>0.84</td>
+                    <td>54 ms</td>
+                </tr>
+
+                <tr>
+                    <td><strong>SWARA Staff Module</strong></td>
+                    <td><strong>0.93</strong></td>
+                    <td><strong>0.90</strong></td>
+                    <td><strong>41 ms</strong></td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <!-- Detection -->
+
+        <h3 class="subsection-title">
+
+            Heterogeneous Musical Symbol Detection
+
+        </h3>
+
+        <table class="result-table">
+
+            <thead>
+
+                <tr>
+                    <th>Detector</th>
+                    <th>mAP<sub>50</sub></th>
+                    <th>mAP<sub>50:95</sub></th>
+                    <th>Precision</th>
+                    <th>Recall</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>YOLOv11-l</td>
+                    <td><strong>0.92</strong></td>
+                    <td><strong>0.80</strong></td>
+                    <td><strong>0.93</strong></td>
+                    <td><strong>0.86</strong></td>
+                </tr>
+
+                <tr>
+                    <td>YOLOv11-m</td>
+                    <td>0.90</td>
+                    <td>0.77</td>
+                    <td>0.92</td>
+                    <td>0.84</td>
+                </tr>
+
+                <tr>
+                    <td>YOLOv11-s</td>
+                    <td>0.87</td>
+                    <td>0.72</td>
+                    <td>0.90</td>
+                    <td>0.82</td>
+                </tr>
+
+                <tr>
+                    <td>Faster R-CNN</td>
+                    <td>0.87</td>
+                    <td>0.72</td>
+                    <td>0.89</td>
+                    <td>0.82</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
 </body>
 
 </html>
