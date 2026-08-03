@@ -524,6 +524,130 @@ body{
 
 }
 /* =====================================================
+   QUALITATIVE RESULTS
+===================================================== */
+
+#qualitative{
+
+    background:#faf8f2;
+
+}
+
+.qualitative-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:35px;
+
+    margin-top:35px;
+
+}
+
+.qualitative-card{
+
+    background:#ffffff;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:0.3s ease;
+
+}
+
+.qualitative-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 12px 28px rgba(0,0,0,.12);
+
+}
+
+.qualitative-image{
+
+    width:100%;
+
+    display:block;
+
+    border-bottom:1px solid #eeeeee;
+
+}
+
+.qualitative-card .figure-caption{
+
+    padding:18px 22px;
+
+    margin:0;
+
+    font-size:16px;
+
+    line-height:1.6;
+
+    text-align:center;
+
+    color:#666;
+
+    font-style:italic;
+
+}
+
+@media(max-width:900px){
+
+    .qualitative-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+/* =====================================================
+   ROBUSTNESS ANALYSIS
+===================================================== */
+
+#robustness{
+
+    background:#ffffff;
+
+}
+
+#robustness .large-image{
+
+    width:100%;
+
+    max-width:1200px;
+
+    display:block;
+
+    margin:35px auto;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+#robustness .figure-caption{
+
+    max-width:900px;
+
+    margin:15px auto 0;
+
+    text-align:center;
+
+    font-size:17px;
+
+    line-height:1.6;
+
+    color:#666;
+
+    font-style:italic;
+
+}
+/* =====================================================
    RESPONSIVE
 ===================================================== */
 
