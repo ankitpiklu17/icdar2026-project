@@ -433,6 +433,97 @@ body{
 
 }
 /* =====================================================
+   EXPERIMENTS
+===================================================== */
+
+.section-description{
+
+    max-width:1000px;
+
+    margin:0 auto 40px;
+
+    text-align:center;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#444;
+
+}
+
+.subsection-title{
+
+    margin-top:35px;
+
+    margin-bottom:20px;
+
+    text-align:center;
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:34px;
+
+    color:#18355d;
+
+}
+
+.result-table{
+
+    width:100%;
+
+    max-width:900px;
+
+    margin:25px auto;
+
+    border-collapse:collapse;
+
+    background:#ffffff;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+}
+
+.result-table th{
+
+    background:#18355d;
+
+    color:#ffffff;
+
+    padding:14px;
+
+    font-size:18px;
+
+}
+
+.result-table td{
+
+    padding:14px;
+
+    text-align:center;
+
+    border-bottom:1px solid #e6e6e6;
+
+    font-size:17px;
+
+}
+
+.result-table tr:last-child td{
+
+    border-bottom:none;
+
+}
+
+.result-table tbody tr:hover{
+
+    background:#f7f9fc;
+
+}
+/* =====================================================
    RESPONSIVE
 ===================================================== */
 
